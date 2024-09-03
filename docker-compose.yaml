@@ -3,7 +3,7 @@ version: '3.9'
 services:
   master_postgres:
     container_name: master_postgres
-    image: postgres:16
+    image: postgres:16-alpine
     environment:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=password
